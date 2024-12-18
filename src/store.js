@@ -6,8 +6,8 @@ import { GetArticles, GetUserInfo } from './gglQueries'
 
 const API_DOMAIN = 'https://api.github.com'
 const REPO_URL = `${API_DOMAIN}/repos/briteming/blog-articles`
-const SERVER = 'https://api.jrainlau.now.sh/github'
-// const SERVER = 'http://localhost:3000/github'
+// const SERVER = 'https://api.jrainlau.now.sh/github'
+const SERVER = 'http://localhost:3000/github'
 
 export const $fetch = ({ url, method = 'get', data, headers = {} }) => {
   const option = {
